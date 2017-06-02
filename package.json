@@ -34,8 +34,9 @@
     "uri-templates": "^0.1.7"
   },
   "devDependencies": {
-    "mocha": "1.x.x",
-    "chai": "1.x.x"
+    "make-node": "0.3.x",
+    "mocha": "3.x.x",
+    "chai": "4.x.x"
   },
   "engines": {
     "node": "*"
