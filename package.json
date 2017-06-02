@@ -1,0 +1,45 @@
+{
+  "name": "anansi",
+  "version": "0.0.0",
+  "description": "Web crawler toolkit",
+  "keywords": [
+    "crawler",
+    "spider"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/todo.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/todo/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "raw-body": "^2.1.2",
+    "stream-buffer": "^1.0.0",
+    "type-is": "^1.6.8",
+    "uri-templates": "^0.1.7"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
